@@ -2,7 +2,10 @@
     height: 100%;
     width: 100%;
 }
-
+.image{
+    width:70px;
+    position: fixed;
+}
 .image-container img {
     display: inline-block; 
     margin-right: 20px; 
