@@ -9,7 +9,7 @@
 .image-container img {
     display: inline-block; 
     margin-right: 20px; 
-    animation: scrollImages 3s linear infinite; 
+    animation: scrollImages 2s linear infinite; 
 }
 
 @keyframes scrollImages {
