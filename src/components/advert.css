@@ -3,7 +3,7 @@
     width: 100%;
 }
 .image{
-    width:70px;
+    width:100px;
     position: fixed;
 }
 .image-container img {
@@ -17,6 +17,6 @@
         transform: translateX(100%);
     }
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-130%);
     }
 }
