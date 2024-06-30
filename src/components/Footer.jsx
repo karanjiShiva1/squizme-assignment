@@ -18,7 +18,7 @@ function Footer() {
   return (
     <div className="footer mt-20 bg-slate-500 w-screen flex-1  ">
       <div className=" flex justify-center">
-      <img className="w-72 h-20 "src={images[currImage]} alt={`Image ${currImage + 1}`} />
+      { <img className="w-72 h-20 "src={images[currImage]}  /> }
         {/* <img className='w-72 h-20'
         src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8bmF0dXJhbHxlbnwwfHx8fDE3MTg4OTU3MzN8MA&ixlib=rb-4.0.3"
         /> */}

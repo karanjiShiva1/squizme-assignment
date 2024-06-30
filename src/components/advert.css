@@ -8,15 +8,17 @@
 }
 .image-container img {
     display: inline-block; 
+    flex-shrink: 0;
+    width: 400px;
     margin-right: 20px; 
-    animation: scrollImages 2s linear infinite; 
+    animation: scroll 5s linear infinite;; 
 }
 
-@keyframes scrollImages {
+@keyframes scroll {
     0% {
-        transform: translateX(100%);
+        transform: translateX(0);
     }
     100% {
-        transform: translateX(-130%);
+        transform: translateX(-100%);
     }
 }
